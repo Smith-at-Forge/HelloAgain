@@ -5,17 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .contain > *{
-      justify-items: center;
-      border: 3px solid blue;
+    body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
     }
+    .contain {
+        text-align: center;
+		border: 3px solid #641B2E;
+        padding: 10px;
+        font-family: Aladin;
+    }
+    *{background: #FBDB93} /* https://colorhunt.co/palette/fbdb93be5b508a2d3b641b2e */
+	  h1{color: #641B2E}
+	  h2{color: #8A2D3B}
+	  h3{color: #BE5B50}
   </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">  
 </head>
 
 <body>
   <div class="contain">
     <div>
       <h1>The Best Movies so far</h1>
+    </div>
+    <div>
       <h2>Top 3 Movies of all-time</h2>
     </div>
     <hr />
@@ -31,32 +48,3 @@
   
 </body>
 </html>
-
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Movies</title>
-  <style>
-	  *{background: #FBDB93}
-	  h1{color: #641B2E}
-	  h2{color: #8A2D3B}
-	  h3{color: #BE5B50}
-  </style>
-</head>
-<body>
-	<h1>The Best Movies so far</h1>
-	<h2>Top 3 Movies of all-time</h2>
-	<hr />
-	<h3>The Dark Knight</h3>
-	<p>Dark and complex storytelling</p>
-	<h3>No Country for Old Men</h3>
-	<p>Minimalist thriller and one of the most chilling villains</p>
-	<h3>The Lord of the Rings</h3>
-	<p>Rich story and memorable characters</p>
-</body>
-</html>
--->
