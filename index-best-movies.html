@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    body {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
         display: flex;
         height: 100vh;
         align-items: center;
         justify-content: center;
-    }
-    .contain {
+      }
+      .contain {
         text-align: center;
-		border: 3px solid #641B2E;
+        border: 3px solid #641b2e;
         padding: 10px;
         font-family: Aladin;
-    }
-    *{background: #FBDB93} /* https://colorhunt.co/palette/fbdb93be5b508a2d3b641b2e */
-	  h1{color: #641B2E}
-	  h2{color: #8A2D3B}
-	  h3{color: #BE5B50}
-  </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">  
-</head>
+      }
+      * {
+        background: #fbdb93;
+      } /* https://colorhunt.co/palette/fbdb93be5b508a2d3b641b2e */
+      h1 {
+        color: #641b2e;
+      }
+      h2 {
+        color: #8a2d3b;
+      }
+      h3 {
+        color: #be5b50;
+      }
+      body {
+        background-color: aquamarine;
+      }
+      @media (min-width: 319px) and (max-width: 480px) {
+        body {
+          background-color: lightsalmon;
+        }
+      }
+      @media (min-width: 481px) and (max-width: 1200px) {
+        body {
+          background-color: powderblue;
+        }
+      }
+      @media (min-width: 1201px) and (max-width: 1600px) {
+        body {
+          background-color: limegreen;
+        }
+      }
+      @media (min-width: 1601px) {
+        body {
+          background-color: seagreen;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <div class="contain">
-    <div>
-      <h1>The Best Movies so far</h1>
+  <body>
+    <div class="contain">
+      <div>
+        <h1>The Best Movies so far</h1>
+      </div>
+      <div>
+        <h2>Top 3 Movies of all-time</h2>
+      </div>
+      <hr />
+      <div>
+        <h3>The Dark Knight</h3>
+        <p>Dark and complex storytelling</p>
+        <h3>No Country for Old Men</h3>
+        <p>Minimalist thriller and one of the most chilling villains</p>
+        <h3>The Lord of the Rings</h3>
+        <p>Rich story and memorable characters</p>
+      </div>
     </div>
-    <div>
-      <h2>Top 3 Movies of all-time</h2>
-    </div>
-    <hr />
-    <div>
-      <h3>The Dark Knight</h3>
-      <p>Dark and complex storytelling</p>
-      <h3>No Country for Old Men</h3>
-      <p>Minimalist thriller and one of the most chilling villains</p>
-      <h3>The Lord of the Rings</h3>
-      <p>Rich story and memorable characters</p>
-    </div>
-  </div>
-  
-</body>
+  </body>
 </html>
